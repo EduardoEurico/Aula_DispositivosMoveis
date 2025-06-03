@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editNomeProduto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome do Produto"
+        android:padding="16dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editDataEntrada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Data de Entrada (dd/mm/aaaa)"
+        android:padding="16dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editPreco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Preço"
+        android:padding="16dp" />
+
+    <Button
+        android:id="@+id/btnCadastrarProduto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar Produto" />
+
+    <TextView
+        android:id="@+id/textListaProdutos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nenhum produto cadastrado ainda."
+        android:textSize="18sp"
+        android:padding="16dp" />
+
+
+</LinearLayout>
